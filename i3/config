@@ -199,4 +199,5 @@ smart_borders on
 for_window [class="^.*"] border pixel 2
 
 exec_always feh --bg-scale /home/j/Pictures/wallpaper.jpg
+exec_always --no-startup-id picom --config /home/j/.config/i3/picom.conf
 exec --no-startup-id ~/main.sh
