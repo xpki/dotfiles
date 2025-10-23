@@ -192,11 +192,11 @@ bar {
 }
 
 gaps inner 7
-gaps outer 2
+gaps outer 20
 
-smart_borders on
+#smart_borders on
 
-for_window [class="^.*"] border pixel 2
+#for_window [class="^.*"] border pixel 2
 
 exec_always feh --bg-scale /home/j/Pictures/wallpaper.jpg
 exec_always --no-startup-id picom --config /home/j/.config/i3/picom.conf
